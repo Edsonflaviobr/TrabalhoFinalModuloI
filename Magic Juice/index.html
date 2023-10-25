@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- SEO metas -->
+      <title>Magic Juice</title>
+      <meta name="keywords" content="suco, detox, saúde, frutas, vegetais,bebida">
+      <meta name="description" content="Página de vendas de sucos detox">
+      <meta name="author" content="Edson Flavio de Sousa">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="Iniciando o site"/></div>
+      </div>
+      <!-- header -->
+      <main class="header">
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class="col-xl-1 col-lg-3 col-sm-2 col logo_section">
+                  <div class="full">
+                     <div class="center-desk">
+                        <div class="logo">
+                           <a href="index.html">Magic Juice</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-7 col-lg-9 col-md-10 col-sm-12">
+                  <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarsExample04">
+                        <ul class="navbar-nav mr-auto">
+                           <li class="nav-item active">
+                              <a class="nav-link" href="index.html">Início</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#linha">Nossos Linhas</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#sabor">Nossos Sabores</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#info">Maiores informações</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#depoimento">Depoimentos de Clientes</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#kit">Monte seu kit</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </nav>
+               </div>
+               <div class="col-md-4 re_no">
+                  <ul class="infomaco">
+                     <li><i class="fa fa-phone" aria-hidden="true"></i> +55 11 999245544</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </main>
+      <!-- banner -->
+      <main class="full_bg">
+         <div class="slider_main">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-md-12">
+                     <!-- carousel -->
+                     <div id="carouselExampleIndicators" class="carousel slide">
+                        <ol class="carousel-indicators">
+                           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                           <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                           <!-- 1 -->
+                           <div class="carousel-item active">
+                              <div class="carousel-caption relative">
+                                 <div class="row d_flex">
+                                    <div class="col-md-5">
+                                       <div class="magic_text">
+                                          <h1 data-animation="animated bounceInLeft">
+                                             Magic<br>
+                                             Juice
+                                          </h1>
+                                          <p data-animation="animated bounceInLeft">
+                                             Descubra a poder de toda Energia Natural com nossos sucos que são Mágicos! 
+                                          </p>
+                                          <button class="btn btn-primary  read_more bounceInLeft" data-animation="animated bounceInLeft" onclick="window.location.href = '#linha'">Nossas Linhas</button>
+                                          <button class="btn btn-primary  read_more bounceInLeft" data-animation="animated bounceInLeft" onclick="window.location.href = '#sabor'">Nossos Sabores</button>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                       <div class="banner_img">
+                                          <figure><img src="images/sucos home.png" alt="Suco direto das polpas"/></figure>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- 2 -->
+                           <div class="carousel-item">
+                              <div class="carousel-caption relative">
+                                 <div class="row d_flex">
+                                    <div class="col-md-5">
+                                       <div class="magic_text">
+                                          <h1 data-animation="animated bounceInLeft">
+                                             Linha <br>
+                                             Pureza
+                                          </h1>
+                                          <p data-animation="animated bounceInLeft">
+                                             A verdadeira porção mágica para purificar seu corpo e sua mente durante seu dia.
+                                          </p>
+                                          <button class="btn btn-primary  read_more bounceInLeft" data-animation="animated bounceInLeft" onclick="window.location.href = '#linha'">Nossas Linhas</button>
+                                          <button class="btn btn-primary  read_more bounceInLeft" data-animation="animated bounceInLeft" onclick="window.location.href = '#sabor'">Nossos Sabores</button>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                       <div class="banner_img">
+                                          <figure><img src="images/linha pureza.png" alt="Suco de legumes e vegetais como pepino, cenoura, beterraba e alface"/></figure>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- 3 -->
+                           <div class="carousel-item">
+                              <div class="carousel-caption relative">
+                                 <div class="row d_flex">
+                                    <div class="col-md-5">
+                                       <div class="magic_text">
+                                          <h1 data-animation="animated bounceInLeft">
+                                             Linha<br>
+                                             Energia
+                                          </h1>
+                                          <p data-animation="animated bounceInLeft">
+                                             A verdadeira porção mágica para dar energia durante as atividades do seu dia.
+                                          </p>
+                                          <button class="btn btn-primary  read_more bounceInLeft" data-animation="animated bounceInLeft" onclick="window.location.href = '#linha'">Nossas Linhas</button>
+                                          <button class="btn btn-primary  read_more bounceInLeft" data-animation="animated bounceInLeft" onclick="window.location.href = '#sabor'">Nossos Sabores</button>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                       <div class="banner_img">
+                                          <figure><img src="images/linha energia.png" alt="Suco de frutas como kiwi, maça e laranja"/></figure>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- 4 -->
+                           <div class="carousel-item">
+                              <div class="carousel-caption relative">
+                                 <div class="row d_flex">
+                                    <div class="col-md-5">
+                                       <div class="magic_text">
+                                          <h1 data-animation="animated bounceInLeft">
+                                             Linha<br>
+                                             Calma
+                                          </h1>
+                                          <p data-animation="animated bounceInLeft">
+                                             A verdadeira porção mágica para desacelerar seu corpo e sua mente no seu dia-a-dia.
+                                          </p>
+                                          <button class="btn btn-primary  read_more bounceInLeft" data-animation="animated bounceInLeft" onclick="window.location.href = '#linha'">Nossas Linhas</button>
+                                          <button class="btn btn-primary  read_more bounceInLeft" data-animation="animated bounceInLeft" onclick="window.location.href = '#sabor'">Nossos Sabores</button>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                       <div class="banner_img">
+                                          <figure><img src="images/linha calmaria.png" alt="Suco de frutas como abacaxi, laranja, kiwi e morango"/></figure>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- controle -->
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        <span class="sr-only">Next</span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+       <!-- nossas linhas -->
+      <main class="service" id="linha">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_center">
+                     <h2>Nossas Linhas</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="owl-carousel owl-theme">
+                     <div class="item">
+                        <div class="service_box text_align_center">
+                           <div class="ser_img">
+                              <figure><img src="images/suco verde.png" alt="Suco verde"/></figure>
+                           </div>
+                           <h3>Linha Pureza</h3>
+                           <p>Essa linha de sucos traz o <i>Elixir uva da purificação</i>. O nosso organismo é intoxicado diariamente 
+                              pela má alimentação, estresse do dia-a-dia, poluição do meio ambiente e desgaste natural do corpo. 
+                              A fim de promover a desintoxicação, os nossos sucos da Linha Pureza são indicados para uso diário a tarde. 
+                          </p>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="service_box text_align_center">
+                           <div class="ser_img">
+                              <figure><img src="images/Suco amarelo.png" alt="Suco amarelo"/></figure>
+                           </div>
+                           <h3>Linha Energia</h3>
+                           <p>Essa linha de sucos traz o <i>Elixir melão da energização</i>. O nosso organismo necessita de energia e vitalidade. 
+                              Com o dia-a-dia cada vez mais desgastante é sempre recomendado uma dose alta de energização. Por isso, os 
+                              nossos sucos da Linha Energia são indicados para uso diário logo pela manhã. 
+                           </p>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <div class="service_box text_align_center">
+                           <div class="ser_img">
+                              <figure><img src="images/suco vermelho.png" alt="Suco vermelho"/></figure>
+                           </div>
+                           <h3>Linha Calma</h3>
+                           <p>Essa linha de sucos traz o <i>Elixir hortelã da desaceleração</i>. No final do dia é extremamente importante frear
+                              nosso organismo para emergir no sono reparador. Diante disso, os nossos sucos da Linha Calmaria são indicados 
+                              para uso diário durante a noite, especificamente duas horas antes de se deitar. 
+                           </p>
+                        </div>
+                     </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>      
+      <!-- nossos sabores -->
+      <main class="about" id="sabor">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_center" id="sabor">
+                     <h2>Nossos Sabores</h2>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-sm">
+                     <div class="card">
+                        <img class="card-img-top" src="images/couve.png" alt="Imagem de capa do card com suco de couve">
+                        <div class="card-body"> 
+                           <h2 class="card-title"> Couve e Limão </h2>
+                           <p class="card-text"><i>Da Linha Pureza contém suco com base de uva tendo como ingredientes principais a Couve Manteiga e o Limão Siciliano</i></p>
+                           </br></br><p><a href="#info" class="card-link">Mais informações</a></p>
+                        </div>
+                     </div>
+                  </div> 
+                  <div class="col-sm">
+                     <div class="card">
+                        <img class= "card-img-top" src="images/abacaxi.png" alt="Imagem de capa do card com suco de abacaxi">
+                        <div class="card-body"> 
+                           <h2 class="card-title"> Abacaxi e Gengibre </h2>
+                           <p class="card-text"><i>Da Linha Energia contém suco com base de melão tendo como ingredientes principais o Abacaxi Smooth Cayenne e o Gengibre Raiz</i></p>
+                           </br></br><p><a href="#info" class="card-link">Mais informações</a></p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm">
+                     <div class="card">
+                        <img class="card-img-top" src="images/banan.png" alt="Imagem de capa do card com suco de banana">
+                        <div class="card-body"> 
+                           <h2 class="card-title"> Banana e Camomila </h2>
+                           <p class="card-text"><i>Da Linha Calma contém suco com base de hortelã tendo como ingredientes principais a Banana Nanica e a Camomila</i></p>
+                           </br></br><p><a href="#info" class="card-link">Mais informações</a></p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm">
+                     <div class="card">
+                        <img class="card-img-top" src="images/maca.png" alt="Imagem de capa do card com suco de maçâ">
+                        <div class="card-body"> 
+                           <h2 class="card-title"> Maçã e Cenoura </h2>
+                           <p class="card-text"><i>Da Linha Pureza contém suco com base de uva tendo como ingredientes principais a Maçã Gala e a Cenoura Laranja</i></p>
+                           </br></br><p><a href="#info" class="card-link">Mais informações</a></p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm">
+                     <div class="card">
+                        <img class="card-img-top" src="images/morango.png" alt="Imagem de capa do card com suco de morango">
+                        <div class="card-body"> 
+                           <h2 class="card-title"> Morango e Canela </h2>
+                           <p class="card-text"><i>Da Linha Energia contém suco com base de melão tendo como ingredientes principais o Morango Camarosa e a Canela</i></p>
+                           </br></br><p><a href="#info" class="card-link">Mais informações</a></p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm">
+                     <div class="card">
+                        <img class="card-img-top" src="images/maracuja.png" alt="Imagem de capa do card com suco de maracujá">
+                        <div class="card-body">
+                           <h2 class="card-title"> Maracujá e Erva Doce </h2>
+                           <p class="card-text"><i>Da Linha Calma contém suco com base de hortelã tendo como ingredientes principais o Maracujá Doce e a Erva Doce</i></p>
+                           </br></br><p><a href="#info" class="card-link">Mais informações</a></p>
+                        </div>
+                     </div>
+                  </div>   
+               </div>
+            </div>                   
+         </div>
+      </main>
+      <!-- informações nutricionais -->
+      <main class="section blue_bg" id="info">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-6 col-md-12">
+                  <div class="info">
+                        <div class="col-md-12">
+                           <div class="titlepage text_align_center">
+                              <h2>Informações nutricionais</h2>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion" id="accordionExample">
+                        <div class="card">
+                          <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                 Abacaxi e Gengibre
+                              </button>
+                            </h5>
+                          </div>
+                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                              A base de água. Valor Calórico 93,2 kcal (390 kJ). Carboidratos  22 g.
+                              Proteínas 1,3 g. Fibra Alimentar  1,06g. Vitamina C 83 mg. Vitamina A 75 mg.
+                              Vitamina B 105 mg. Pasteurizado, não fermentado e não alcoólico. Não contém glúten.
+                              Sem conversantes artificiais. Após aberto consumir em até 48 horas. 
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                 Couve e Limão 
+                              </button>
+                            </h5>
+                          </div>
+                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                              A base de água. Valor Calórico 99,2 kcal (420 kJ). Carboidratos  80 g.
+                              Proteínas 1,3 g. Fibra Alimentar  1,95 g. Vitamina C 123 mg. Vitamina A 110,2 mg.
+                              Vitamina B 82 mg. Pasteurizado, não fermentado e não alcoólico. Não contém glúten.
+                              Sem conversantes artificiais. Após aberto consumir em até 48 horas.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                 Banana e Camomila
+                              </button>
+                            </h5>
+                          </div>
+                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                              A base de água. Valor Calórico 80,7 kcal (365 kJ). Carboidratos  10 g.
+                              Proteínas 2,5 g. Fibra Alimentar  1,89 g. Vitamina C 75 mg. Vitamina A 85,9 mg.
+                              Vitamina B 99 mg. Pasteurizado, não fermentado e não alcoólico. Não contém glúten.
+                              Sem conversantes artificiais. Após aberto consumir em até 48 horas. 
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                           <div class="card-header" id="headingFour">
+                             <h5 class="mb-0">
+                               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                 Morango e Canela
+                               </button>
+                             </h5>
+                           </div>
+                           <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                             <div class="card-body">
+                              A base de água. Valor Calórico 70,2 kcal (290 kJ). Carboidratos  17 g.
+                              Proteínas 1,1 g. Fibra Alimentar  1,09 g. Vitamina C 105 mg. Vitamina A 81,5 mg. 
+                              Vitamina D 98 mg. Pasteurizado, não fermentado e não alcoólico. Não contém glúten.
+                              Sem conversantes artificiais. Após aberto consumir em até 48 horas.
+                             </div>
+                           </div>
+                        </div>
+                        <div class="card">
+                           <div class="card-header" id="headingFive">
+                             <h5 class="mb-0">
+                               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                 Maçã e Cenoura
+                               </button>
+                             </h5>
+                           </div>
+                           <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                             <div class="card-body">
+                              A base de água. Valor Calórico 81,6 kcal (330 kJ). Carboidratos  18 g.
+                              Proteínas 1,8 g. Fibra Alimentar  2,05 g. Vitamina C 115 mg. Vitamina A 109 mg. 
+                              Vitamina B 77 mg. Pasteurizado, não fermentado e não alcoólico. Não contém glúten.
+                              Sem conversantes artificiais. Após aberto consumir em até 48 horas. 
+                             </div>
+                           </div>
+                        </div>
+                        <div class="card">
+                           <div class="card-header" id="headingSix">
+                             <h5 class="mb-0">
+                               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                 Maracujá e Erva Doce 
+                               </button>
+                             </h5>
+                           </div>
+                           <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                             <div class="card-body">
+                              A base de água. Valor Calórico 62,1 kcal (185 kJ). Carboidratos  22 g.
+                              Proteínas 1,5 g. Fibra Alimentar  2,00 g. Vitamina C 95 mg. Vitamina A 102 mg.
+                              Vitamina D 15 mg. Pasteurizado, não fermentado e não alcoólico. Não contém glúten.
+                              Sem conversantes artificiais. Após aberto consumir em até 48 horas.
+                             </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               <!-- perguntas frequentes -->
+               <div class="col-lg-6 col-md-12">
+                  <div class="info">
+                     <div class="row ">
+                        <div class="col-md-12">
+                           <div class="titlepage text_align_center">
+                               <h2>Perguntas </br> Frequentes</h2>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion" id="accordionExample">
+                        <div class="card">
+                           <div class="card-header" id="headingSeven">
+                              <h5 class="mb-0">
+                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                                 Como conseguir meu Magic Juice?
+                                 </button>
+                              </h5>
+                           </div>
+                           <div id="collapseSeven" class="collapse show" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                              <div class="card-body">
+                              Primeiramente é necessário preencher o formulário na seção <a href="#kit"> Montar meu Kit</a>. Lá você
+                              deve informar quais sabores deseja e a quantidade por sabor. Após submeter o pedido, nosso time entrará em contato com você 
+                              em até 24 horas, via telefone ou e-mail. Dessa forma, você prosseguirá com o pagamento e confirmação da compra.
+                              </div>
+                           </div>
+                        </div>
+                        <div class="card">
+                           <div class="card-header" id="headingEight">
+                              <h5 class="mb-0">
+                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                 Como vem meu Magic Juice? 
+                                 </button>
+                              </h5>
+                           </div>
+                           <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                              <div class="card-body">
+                              Nossos sucos são vendidos em embalagens plásticas de 500 ml recicláveis lacradas. 
+                              Em caso de suspeita de violação do lacre favor não consumir a bebida.
+                              </div>
+                           </div>
+                        </div>
+                        <div class="card">
+                           <div class="card-header" id="headingNine">
+                              <h5 class="mb-0">
+                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                 Como recebo meu Magic Juice?
+                                 </button>
+                              </h5>
+                           </div>
+                           <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+                              <div class="card-body">
+                              O envio é feito via correios em até 24 horas após confirmação da compra. O recebimento dependerá da sua região.
+                              Região Sul, Sudeste e Centro-Oeste em até 2 dias úteis e região Norte e Nordeste em até 4 dias úteis. Em casos especiais
+                              ou região de díficil acesso favor consultar condições antes de finalizar seu pedido. Qualquer alteração de prazo de entrega
+                              será devidamente informado ao cliente via telefone.
+                              </div>
+                           </div>
+                        </div>
+                        <div class="card">
+                           <div class="card-header" id="headingTen">
+                              <h5 class="mb-0">
+                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                 Não estava em casa e não recebi meu Magic Juice, e agora?
+                                 </button>
+                              </h5>
+                           </div>
+                           <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+                              <div class="card-body">
+                              Haverá três tentativas em horários diferentes no endereço indicado. Caso não haja recepção em nenhuma das tentativas,
+                              seu suco retornará para o remetente e a sua compra cancelada, com o devido estorno, sendo necessária outra operação para nova aquisição.
+                              </div>
+                           </div>
+                        </div>
+                        <div class="card">
+                           <div class="card-header" id="headingEleven">
+                              <h5 class="mb-0">
+                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                 Qual valor do frete?
+                                 </button>
+                               </h5>
+                           </div>
+                           <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
+                              <div class="card-body">
+                              Compras acima de 15 garrafas tem frete grátis. Abaixo dessa quantidade depende da sua localização, sendo calculado via correios, e passado
+                              no fechamento da compra. 
+                              </div>
+                           </div>
+                        </div>
+                        <div class="card">
+                           <div class="card-header" id="headingTwelve">
+                              <h5 class="mb-0">
+                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                                 Quais as formas de pagamento?
+                                 </button>
+                              </h5>
+                           </div>
+                           <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordionExample">
+                              <div class="card-body">
+                              São aceitos cartão de crédito, cartão de débito, boleto bancário e PIX. Há desconto de 5% para pagamentos feito via PIX.
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>  
+      <!-- monte seu kit -->
+      <main class="section blue_bg" id="kit">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-6 col-md-12">
+                  <div class="contact">
+                     <div class="row ">
+                        <div class="col-md-12">
+                           <div class="titlepage text_align_center">
+                              <h2>Monte seu kit </h2>
+                           </div>
+                        </div>
+                        <div class="col-md-12">
+                           <form id="request" class="main_form">
+                              <div class="row">
+                                 <div class="col-md-12 ">
+                                    <input class="contactus" placeholder="Digite seu primeiro nome e seu último sobrenome" type="text" name="name" id="nameFull"
+                                    oninvalid="alert('Apenas letras! O Nome deve conter somente o primeiro nome e o último sobrenome. Exemplo: Joana Dark.');" 
+                                    pattern="[A-Za-z]+ [A-Za-z]+"/> 
+                                 </div>
+                                 <div class="col-md-6">
+                                    <input class="contactus" placeholder="Digite seu telefone" type="tel" name="phoneNumber" id="phoneNumber"
+                                    maxlength="11" minlength="9" oninvalid="alert('Apenas números são permitidos. Digite o DDD seguido do número. Exemplo: 35935517113');" 
+                                    pattern="[0-9]*">                          
+                                 </div>
+                                 <div class="col-md-6">
+                                    <input class="contactus" placeholder="Digite seu e-mail" type="email" name="email" id="email">                          
+                                 </div>
+                                 <div class="col-md-12">
+                                    <input class="contactus" placeholder="Digite seu endereço" type="text" name="adress" id="adress">                          
+                                 </div>
+                                 <div class="col-md-6">
+                                    <input class="contactus" placeholder="Digite sua cidade" type="text" name="city" id="city">
+                                 </div>
+                                 <div class="col-md-6">
+                                       <label for="inputEstado" id="estado"> <stronger> Estado </stronger></label>
+                                       <select id="inputEstado" class="form-control">
+                                         <option selected>Escolher...</option>
+                                         <option>AC</option>
+                                         <option>AL</option>
+                                         <option>AP</option>
+                                         <option>AM</option>
+                                         <option>BA</option>
+                                         <option>CE</option>
+                                         <option>DF</option>
+                                         <option>ES</option>
+                                         <option>GO</option>
+                                         <option>MA</option>
+                                         <option>MT</option>
+                                         <option>MS</option>
+                                         <option>MG</option>
+                                         <option>PA</option>
+                                         <option>PB</option>
+                                         <option>PR</option>
+                                         <option>PE</option>
+                                         <option>PI</option>
+                                         <option>RJ</option>
+                                         <option>RN</option>
+                                         <option>RS</option>
+                                         <option>RO</option>
+                                         <option>RR</option>
+                                         <option>SC</option>
+                                         <option>SP</option>
+                                         <option>SE</option>
+                                         <option>TO</option>
+                                       </select>
+                                 </div>
+                                 <div class="col-md-12">
+                                    <table class="table-responsive" id="tabela">
+                                       <thead>
+                                          <tr>
+                                             <th></th>
+                                             <th id="th_table"> QUANTIDADE - R$5,90 (500ml) </th>
+                                          </tr> 
+                                       </thead>
+                                       <tbody>
+                                          <tr>
+                                             <td> Abacaxi e Gengibre</i></td>
+                                             <td><input class="contactus" placeholder="Digite a quantidade" type="number" name="abacaxi" id="abacaxi"></td>
+                                          </tr>
+                                          <tr>
+                                             <td> Couve e Limão </td>
+                                             <td><input class="contactus" placeholder="Digite a quantidade" type="number" name="couve" id="couve"></td>
+                                          </tr>
+                                          <tr>
+                                             <td> Banana e Camomila </br></i></td>
+                                             <td><input class="contactus" placeholder="Digite a quantidade" type="number" name="banana" id="banana"></td>
+                                          </tr>
+                                          <tr>
+                                             <td> Morango e Canela </br></td>
+                                             <td><input class="contactus" placeholder="Digite a quantidade" type="number" name="morango" id="morango"></td>
+                                          </tr>
+                                          <tr>
+                                             <td>  Maçã e Cenoura </br></td>
+                                             <td><input class="contactus" placeholder="Digite a quantidade" type="number" name="maca" id="maca"></td>
+                                          </tr>
+                                          <tr>
+                                             <td> Maracujá e Erva Doce </br></td>
+                                             <td><input class="contactus" placeholder="Digite a quantidade" type="number" name="maracuja" id="maracuja"></td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </div>
+                                 <div class="col-md-12">
+                                    <button class="send_btn" type="submit" onclick="post ()">Comprar</button>
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- depoimentos -->
+               <div class="col-lg-6 col-md-12" id="depoimento">
+                  <div class="testimonial">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <div class="titlepage text_align_center">
+                              <h2>Depoimentos</h2>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-12">
+                           <div id="myCarousel" class="carousel slide testimonial_Carousel " data-ride="carousel">
+                              <ol class="carousel-indicators">
+                                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                 <li data-target="#myCarousel" data-slide-to="1"></li>
+                                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                              </ol>
+                              <div class="carousel-inner">
+                                 <div class="carousel-item active">
+                                    <div class="container">
+                                       <div class="carousel-caption ">
+                                          <div class="row">
+                                             <div class="col-md-12">
+                                                <div class="testimonial_box text_align_left">
+                                                   <p>"Eu simplemente amo o suco da marca Magic Juice! 
+                                                      É refrescante, saboroso e sempre me deixa com energia. Não consigo passar um dia sem tomar um copo.
+                                                   </p>
+                                                </div>
+                                             </div>
+                                             <div class="col-md-12">
+                                                <div class="testimonial_pro">
+                                                   <figure><img src="images/homem.png" alt="Cliente homem com copo de suco"/></figure>
+                                                   <h3>Gabriel Dias <br><span class="cust">Cliente há 9 meses</span></h3>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="carousel-item">
+                                    <div class="container">
+                                       <div class="carousel-caption">
+                                          <div class="row">
+                                             <div class="col-md-12">
+                                                <div class="testimonial_box text_align_left">
+                                                   <p>"A qualidade dos ingredientes é claramente visível no sabor. Eu definitivamente recomendo a todos os amantes de suco detox.
+                                                      O sabor da fruta é nítido e claramente o suco Magic Juice realiza uma verdadeira mágica. Sempre tomo da linha calma antes de durmi e 
+                                                      meu sono melhorou muito."
+                                                   </p>
+                                                </div>
+                                             </div>
+                                             <div class="col-md-12">
+                                                <div class="testimonial_pro">
+                                                   <figure><img src="images/mulher.png" alt="Cliente mulher com copo de suco verde"/></figure>
+                                                   <h3>Marina Silva <br><span class="cust">Cliente há 2 anos</span></h3>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="carousel-item">
+                                    <div class="container">
+                                       <div class="carousel-caption">
+                                          <div class="row">
+                                             <div class="col-md-12">
+                                                <div class="testimonial_box text_align_left">
+                                                   <p>"Sempre tentei fazer meu próprio detox, mas nunca ficava saboroso. Comprei o Magic Juice, pois me indicaram por ser livre de conservantes
+                                                      e já me apaixonei. Super natural, realiza o que promete e é 100% saudável. Vale muito a pena. Sempre compro para semana toda." 
+                                                   </p>
+                                                </div>
+                                             </div>
+                                             <div class="col-md-12">
+                                                <div class="testimonial_pro">
+                                                   <figure><img src="images/moca.png" alt="Cliente mulher com copo de suco amarelo"/></figure>
+                                                   <h3>Thais Almeida <br><span class="cust">Cliente há 1 ano</span></h3>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                              <i class="fa fa-angle-left" aria-hidden="true"></i>
+                              <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                              <i class="fa fa-angle-right" aria-hidden="true"></i>
+                              <span class="sr-only">Next</span>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <a class="logo_bottom" href="index.html">Magic </br> Juice</a>
+                  </div>
+                  <div class="col-md-12">
+                     <form class="form_subscri">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <input class="subsrib" placeholder="Digite seu e-mail" type="text" name="Enter your email">
+                           </div>
+                           <div class="col-md-12">
+                              <button class="subsci_btn">Inscreva-se</button>
+                           </div>
+                        </div>
+                     </form>
+                     <div class="col-md-12">
+                        <div class="infoma">
+                           <h3>Siga-nos</h3>
+                           <ul class="social_icon">
+                              <li><a href="https://pt-br.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                              <li><a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                              <li><a href="https://br.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                              <li><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                              <li><a href="https://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                           </ul>
+                           <ul class="conta">
+                              <li><i class="fa fa-map-marker" aria-hidden="true"></i>Av. Paulista, 2551 - São Paulo/SP 
+                              </li>
+                              <li><i class="fa fa-phone" aria-hidden="true"></i>+55 11 999245544</li>
+                              <li> <i class="fa fa-envelope" aria-hidden="true"></i>contato@magicjuice.com</li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>© 2023 Vem ser Tech.  <a href="http://www.linkedin.com/in/edson-flavio-sousa-675908193"> Edson Flavio de Sousa</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- Javascript -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="js\post.js"></script>
+   </body>
+</html>
