@@ -1,5 +1,3 @@
-/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
-
 
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
 
@@ -20,7 +18,7 @@
 @import url(jquery-ui.css);
 @import url(nice-select.css);
 
-/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+/*--------------------------------------------------------------------- CSS ---------------------------------------------------------------------*/
 
 * {
      box-sizing: border-box !important;
@@ -32,6 +30,7 @@
 
 html {
      scroll-behavior: smooth;
+
 }
 
 body {
@@ -198,10 +197,6 @@ button {
      cursor: pointer;
 }
 
-.full {
-     float: left;
-     width: 100%;
-}
 
 .full {
      width: 100%;
@@ -630,8 +625,8 @@ ul.infomaco li a {
 .about .card {
      margin-inline: 5% 5%;
      margin-top: 30px;
-     width: 300px;     
      padding-block: 10px 20px;
+     width:80%;
      writing-mode: horizontal-tb;
      background:#db341e;
      color: #fff;
@@ -641,6 +636,7 @@ ul.infomaco li a {
 
 .card-title {
      color: yellow;
+
 }
 
 .card-link {
@@ -662,7 +658,6 @@ ul.infomaco li a {
      color: #db341e;
 }
 
-
 /** Monte seu Kit **/
 
 .contact {
@@ -682,6 +677,7 @@ table {
 #th_table {
      color: #fff;
 }
+
 .main_form {
      width: 100%;
 }
@@ -697,7 +693,6 @@ table {
      font-weight: normal;
      border: inherit;
 }
-
 
 .main_form .send_btn {
      font-size: 17px;
@@ -962,7 +957,6 @@ ul.conta li a {
      color: #fff;
 }
 
-
 .form_subscri h3 {
      color: #ffffff;
      font-size: 17px;
@@ -970,7 +964,6 @@ ul.conta li a {
      font-weight: 600;
      padding: 20px 0 2px 0;
 }
-
 
 .copyright {
      margin-top: 60px;

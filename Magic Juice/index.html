@@ -10,7 +10,7 @@
       <meta name="keywords" content="suco, detox, saúde, frutas, vegetais,bebida">
       <meta name="description" content="Página de vendas de sucos detox">
       <meta name="author" content="Edson Flavio de Sousa">
-      <!-- bootstrap css -->
+      <!-- bootstrap e libs css -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/responsive.css">
@@ -26,7 +26,7 @@
          <div class="loader"><img src="images/loading.gif" alt="Iniciando o site"/></div>
       </div>
       <!-- header -->
-      <main class="header">
+      <section class="header">
          <div class="container-fluid">
             <div class="row d_flex">
                <div class="col-xl-1 col-lg-3 col-sm-2 col logo_section">
@@ -74,13 +74,13 @@
                </div>
             </div>
          </div>
-      </main>
+      </section>
       <!-- banner -->
       <main class="full_bg">
          <div class="slider_main">
             <div class="container-fluid">
                <div class="row">
-                  <div class="col-md-12">
+                  <div class="col-12">
                      <!-- carousel -->
                      <div id="carouselExampleIndicators" class="carousel slide">
                         <ol class="carousel-indicators">
@@ -207,7 +207,7 @@
          </div>
       </main>
        <!-- nossas linhas -->
-      <main class="service" id="linha">
+      <section class="service" id="linha">
          <div class="container-fluid">
             <div class="row">
                <div class="col-md-12">
@@ -260,90 +260,96 @@
                </div>
             </div>
          </div>
-      </main>      
+      </section>      
       <!-- nossos sabores -->
-      <main class="about" id="sabor">
+      <section class="about" id="sabor">
          <div class="container">
             <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage text_align_center" id="sabor">
+               <div class="col-12">
+                  <div class="titlepage text_align_center">
                      <h2>Nossos Sabores</h2>
                   </div>
                </div>
-               <div class="row">
-                  <div class="col-sm">
-                     <div class="card">
-                        <img class="card-img-top" src="images/couve.png" alt="Imagem de capa do card com suco de couve">
-                        <div class="card-body"> 
-                           <h2 class="card-title"> Couve e Limão </h2>
-                           <p class="card-text"><i>Da Linha Pureza contém suco com base de uva tendo como ingredientes principais a Couve Manteiga e o Limão Siciliano</i></p>
-                           </br></br><p><a href="#info" class="card-link">Mais informações</a></p>
+                  <section class="col-12">
+                     <div class="row">
+                        <div class ="col-4">
+                           <div class="card">
+                              <img class="card-img-top" src="images/couve.png" alt="Imagem de capa do card com suco de couve">
+                                 <div class="card-body"> 
+                                 <h2 class="card-title"> Couve e Limão </h2>
+                                 <p class="card-text"><i>Da Linha Pureza contém suco com base de uva tendo como ingredientes principais a Couve Manteiga e o Limão Siciliano</i></p>
+                                 </br></br><p><a href="#info" class="card-link">Mais informações</a></p>
+                                 </div>
+                           </div>
+                        </div>
+                        <div class ="col-4"> 
+                           <div class="card">
+                              <img class= "card-img-top" src="images/abacaxi.png" alt="Imagem de capa do card com suco de abacaxi">
+                                 <div class="card-body"> 
+                                 <h2 class="card-title"> Abacaxi e Gengibre </h2>
+                                 <p class="card-text"><i>Da Linha Energia contém suco com base de melão tendo como ingredientes principais o Abacaxi Smooth Cayenne e o Gengibre Raiz</i></p>
+                                 </br></br><p><a href="#info" class="card-link">Mais informações</a></p>
+                                 </div>
+                           </div>
+                        </div>
+                        <div class ="col-4">
+                           <div class="card">
+                              <img class="card-img-top" src="images/banan.png" alt="Imagem de capa do card com suco de banana">
+                                 <div class="card-body"> 
+                                 <h2 class="card-title"> Banana e Camomila </h2>
+                                 <p class="card-text"><i>Da Linha Calma contém suco com base de hortelã tendo como ingredientes principais a Banana Nanica e a Camomila</i></p>
+                                 </br></br><p><a href="#info" class="card-link">Mais informações</a></p>
+                                 </div>
+                           </div>
                         </div>
                      </div>
-                  </div> 
-                  <div class="col-sm">
-                     <div class="card">
-                        <img class= "card-img-top" src="images/abacaxi.png" alt="Imagem de capa do card com suco de abacaxi">
-                        <div class="card-body"> 
-                           <h2 class="card-title"> Abacaxi e Gengibre </h2>
-                           <p class="card-text"><i>Da Linha Energia contém suco com base de melão tendo como ingredientes principais o Abacaxi Smooth Cayenne e o Gengibre Raiz</i></p>
-                           </br></br><p><a href="#info" class="card-link">Mais informações</a></p>
+                  </section> 
+                  <section class="col-12">
+                     <div class="row">
+                        <div class ="col-4">
+                           <div class="card">
+                              <img class="card-img-top" src="images/maca.png" alt="Imagem de capa do card com suco de maçâ">
+                                 <div class="card-body"> 
+                                 <h2 class="card-title"> Maçã e Cenoura </h2>
+                                 <p class="card-text"><i>Da Linha Pureza contém suco com base de uva tendo como ingredientes principais a Maçã Gala e a Cenoura Laranja</i></p>
+                                 </br></br><p><a href="#info" class="card-link">Mais informações</a></p>
+                                 </div>
+                           </div>
                         </div>
-                     </div>
-                  </div>
-                  <div class="col-sm">
-                     <div class="card">
-                        <img class="card-img-top" src="images/banan.png" alt="Imagem de capa do card com suco de banana">
-                        <div class="card-body"> 
-                           <h2 class="card-title"> Banana e Camomila </h2>
-                           <p class="card-text"><i>Da Linha Calma contém suco com base de hortelã tendo como ingredientes principais a Banana Nanica e a Camomila</i></p>
-                           </br></br><p><a href="#info" class="card-link">Mais informações</a></p>
+                        <div class ="col-4">
+                           <div class="card">
+                              <img class="card-img-top" src="images/morango.png" alt="Imagem de capa do card com suco de morango">
+                                 <div class="card-body"> 
+                                 <h2 class="card-title"> Morango e Canela </h2>
+                                 <p class="card-text"><i>Da Linha Energia contém suco com base de melão tendo como ingredientes principais o Morango Camarosa e a Canela</i></p>
+                                 </br></br><p><a href="#info" class="card-link">Mais informações</a></p>
+                                 </div>
+                           </div>
                         </div>
+                        <div class ="col-4">
+                           <div class="card">
+                              <img class="card-img-top" src="images/maracuja.png" alt="Imagem de capa do card com suco de maracujá">
+                                 <div class="card-body">
+                                 <h2 class="card-title"> Maracujá e Erva Doce </h2>
+                                 <p class="card-text"><i>Da Linha Calma contém suco com base de hortelã tendo como ingredientes principais o Maracujá Doce e a Erva Doce</i></p>
+                                 </br></br><p><a href="#info" class="card-link">Mais informações</a></p>
+                                 </div>
+                           </div>
+                        </div>  
                      </div>
-                  </div>
-                  <div class="col-sm">
-                     <div class="card">
-                        <img class="card-img-top" src="images/maca.png" alt="Imagem de capa do card com suco de maçâ">
-                        <div class="card-body"> 
-                           <h2 class="card-title"> Maçã e Cenoura </h2>
-                           <p class="card-text"><i>Da Linha Pureza contém suco com base de uva tendo como ingredientes principais a Maçã Gala e a Cenoura Laranja</i></p>
-                           </br></br><p><a href="#info" class="card-link">Mais informações</a></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-sm">
-                     <div class="card">
-                        <img class="card-img-top" src="images/morango.png" alt="Imagem de capa do card com suco de morango">
-                        <div class="card-body"> 
-                           <h2 class="card-title"> Morango e Canela </h2>
-                           <p class="card-text"><i>Da Linha Energia contém suco com base de melão tendo como ingredientes principais o Morango Camarosa e a Canela</i></p>
-                           </br></br><p><a href="#info" class="card-link">Mais informações</a></p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-sm">
-                     <div class="card">
-                        <img class="card-img-top" src="images/maracuja.png" alt="Imagem de capa do card com suco de maracujá">
-                        <div class="card-body">
-                           <h2 class="card-title"> Maracujá e Erva Doce </h2>
-                           <p class="card-text"><i>Da Linha Calma contém suco com base de hortelã tendo como ingredientes principais o Maracujá Doce e a Erva Doce</i></p>
-                           </br></br><p><a href="#info" class="card-link">Mais informações</a></p>
-                        </div>
-                     </div>
-                  </div>   
-               </div>
+                  </section>   
             </div>                   
          </div>
-      </main>
+      </section>
       <!-- informações nutricionais -->
-      <main class="section blue_bg" id="info">
+      <section class="section blue_bg" id="info">
          <div class="container-fluid">
             <div class="row">
                <div class="col-lg-6 col-md-12">
                   <div class="info">
                         <div class="col-md-12">
                            <div class="titlepage text_align_center">
-                              <h2>Informações nutricionais</h2>
+                              <h2>Informações </br> nutricionais</h2>
                            </div>
                         </div>
                      </div>
@@ -351,7 +357,7 @@
                         <div class="card">
                           <div class="card-header" id="headingOne">
                             <h5 class="mb-0">
-                              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                  Abacaxi e Gengibre
                               </button>
                             </h5>
@@ -454,7 +460,7 @@
                   </div>
                <!-- perguntas frequentes -->
                <div class="col-lg-6 col-md-12">
-                  <div class="info">
+                  <div class="question">
                      <div class="row ">
                         <div class="col-md-12">
                            <div class="titlepage text_align_center">
@@ -465,8 +471,8 @@
                      <div class="accordion" id="accordionExample">
                         <div class="card">
                            <div class="card-header" id="headingSeven">
-                              <h5 class="mb-0">
-                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                              <h5 class="md-0">
+                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                  Como conseguir meu Magic Juice?
                                  </button>
                               </h5>
@@ -515,7 +521,7 @@
                            <div class="card-header" id="headingTen">
                               <h5 class="mb-0">
                                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                 Não estava em casa e não recebi meu Magic Juice, e agora?
+                                 Não recebi meu Magic Juice, e agora?
                                  </button>
                               </h5>
                            </div>
@@ -560,9 +566,9 @@
                </div>
             </div>
          </div>
-      </main>  
+      </section>  
       <!-- monte seu kit -->
-      <main class="section blue_bg" id="kit">
+      <section class="section blue_bg" id="kit">
          <div class="container-fluid">
             <div class="row">
                <div class="col-lg-6 col-md-12">
@@ -772,27 +778,27 @@
                </div>
             </div>
          </div>
-      </main>
+      </section>
       <!--  footer -->
       <footer>
          <div class="footer">
             <div class="container">
                <div class="row">
-                  <div class="col-md-12">
+                  <div class="col-12">
                      <a class="logo_bottom" href="index.html">Magic </br> Juice</a>
                   </div>
-                  <div class="col-md-12">
+                  <div class="col-12">
                      <form class="form_subscri">
                         <div class="row">
-                           <div class="col-md-12">
+                           <div class="col-12">
                               <input class="subsrib" placeholder="Digite seu e-mail" type="text" name="Enter your email">
                            </div>
-                           <div class="col-md-12">
+                           <div class="col-12">
                               <button class="subsci_btn">Inscreva-se</button>
                            </div>
                         </div>
                      </form>
-                     <div class="col-md-12">
+                     <div class="col-12">
                         <div class="infoma">
                            <h3>Siga-nos</h3>
                            <ul class="social_icon">
@@ -806,7 +812,7 @@
                               <li><i class="fa fa-map-marker" aria-hidden="true"></i>Av. Paulista, 2551 - São Paulo/SP 
                               </li>
                               <li><i class="fa fa-phone" aria-hidden="true"></i>+55 11 999245544</li>
-                              <li> <i class="fa fa-envelope" aria-hidden="true"></i>contato@magicjuice.com</li>
+                              <li id="email_contact"><i class="fa fa-envelope" aria-hidden="true"></i>contato@magicjuice.com</li>
                            </ul>
                         </div>
                      </div>
